@@ -25,7 +25,7 @@ with st.container():
         
     if choose == "Home":
         st.title("Alcohol Effect on Study")
-        pict = Image.open(rb'D:\Kuliah\SEMESTER 5\PENAMBANGAN DATA\PROJECT UAS-PENDAT\alcohol.png')
+        pict = Image.open(r'D:\Kuliah\SEMESTER 5\PENAMBANGAN DATA\PROJECT UAS-PENDAT\alcohol.png')
         st.subheader("Pengertian Alcohol")
         st.markdown('<div style="text-align: justify;">Alcohol adalah segala minuman difermentasi yang mengandung etil alkohol atau etanol sebagai zat yang memabukkan. Biasanya minuman alkohol dibuat dari gula yang difermentasi dalam buah-buahan, seperti beri, biji-bijian, dan bahan-bahan lain seperti getah tanaman, umbi-umbian, madu, dan susu. Fermentasi berbagai bahan ini dapat menghasilkan cairan yang memiliki kadar alkohol yang lebih besar dan lebih kuat.</div>', unsafe_allow_html=True)
         st.image(pict, width=700)
